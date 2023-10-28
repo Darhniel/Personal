@@ -180,3 +180,20 @@ input{
     border: none;
     outline: none;
 }
+
+@media (max-width: 425px) {
+    #left {
+        display: none;
+    }
+    #login_area {
+        margin: 5rem auto;
+        width: 80vw;
+    }
+    #login_area p {
+        width: auto;
+        font-size: 1.3rem;
+    }
+    input[type=submit] {
+        margin-top: 1.5rem;
+    }
+}
